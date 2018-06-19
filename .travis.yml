@@ -48,4 +48,4 @@ before_script:
   - go get ./...
 
 script:
-  - if [[ "$TRAVIS_BRANCH" == "master" ]]; then /bin/bash -c ./.travis/build.sh; fi
+  - if [[ "$TRAVIS_BRANCH" == "master" ]]; then /bin/bash -c ./build.sh; fi
